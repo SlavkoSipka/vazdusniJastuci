@@ -25,6 +25,7 @@ Allow: /vazdusni-jastuci-za-dzipove
 Allow: /pneumatska-suspenzija
 Allow: /suspenzija-oslanjanje
 Allow: /kontakt
+Allow: /o-projektu
 
 # Specifični bot-ovi
 User-agent: Googlebot

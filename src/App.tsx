@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Star, ArrowRight, Phone, Mail, MapPin, Car } from 'lucide-react';
 import AutoPartsPage from './components/AutoPartsPage';
 import ProductsPage from './components/ProductsPage';
+import ProjectCaseStudyPage from './components/ProjectCaseStudyPage';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 import LoadingScreen from './components/LoadingScreen';
@@ -17,6 +18,7 @@ function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [showAutoPartsPage, setShowAutoPartsPage] = useState(false);
   const [showProductsPage, setShowProductsPage] = useState(false);
+  const [showCaseStudyPage, setShowCaseStudyPage] = useState(false);
   const [selectedBrand, setSelectedBrand] = useState<string>('SVE');
   const [pageLoading, setPageLoading] = useState(false);
   
@@ -71,6 +73,10 @@ function App() {
       onBack={() => handlePageChange(() => setShowProductsPage(false))} 
       initialBrand={selectedBrand}
     />;
+  }
+
+  if (showCaseStudyPage) {
+    return <ProjectCaseStudyPage onBack={() => handlePageChange(() => setShowCaseStudyPage(false))} />;
   }
 
   return (
@@ -388,7 +394,7 @@ function App() {
         </div>
       </section>
 
-      <Footer />
+      <Footer onCaseStudyClick={() => handlePageChange(() => setShowCaseStudyPage(true))} />
     </div>
   );
 }

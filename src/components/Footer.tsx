@@ -1,6 +1,10 @@
 import React from 'react';
 
-const Footer: React.FC = () => {
+interface FooterProps {
+  onCaseStudyClick?: () => void;
+}
+
+const Footer: React.FC<FooterProps> = ({ onCaseStudyClick }) => {
   return (
     <footer className="bg-black border-t border-zinc-800 py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -25,16 +29,22 @@ const Footer: React.FC = () => {
             <a href="#" className="text-zinc-400 hover:text-red-600 font-semibold uppercase tracking-wide transition-colors">
               Kontakt
             </a>
+            {onCaseStudyClick && (
+              <button 
+                onClick={onCaseStudyClick}
+                className="text-zinc-400 hover:text-red-600 font-semibold uppercase tracking-wide transition-colors"
+              >
+                O projektu
+              </button>
+            )}
           </div>
           <p className="text-zinc-500 text-xs sm:text-sm px-4">
             Website by{' '}
             <a 
               href="https://aisajt.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
               className="text-red-600 hover:text-red-500 font-semibold transition-colors"
             >
-              Aisajt.com
+              AiSajt
             </a>
             {' • '}
             <span itemScope itemType="https://schema.org/Organization">
