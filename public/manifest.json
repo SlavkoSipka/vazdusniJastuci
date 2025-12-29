@@ -1,0 +1,36 @@
+{
+  "name": "Vazdušni Jastuci Srbija - Suspenzija za Džipove",
+  "short_name": "Vazdušni Jastuci",
+  "description": "Originalni vazdušni jastuci za džipove i SUV vozila. BMW, Mercedes, Audi, Land Rover, Porsche.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#dc2626",
+  "orientation": "portrait-primary",
+  "categories": ["automotive", "shopping", "business"],
+  "lang": "sr",
+  "icons": [
+    {
+      "src": "https://aislike.rs/Jastuci/android-chrome-512x512.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://aislike.rs/Jastuci/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://aislike.rs/Jastuci/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "https://aislike.rs/Jastuci/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

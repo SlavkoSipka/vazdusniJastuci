@@ -1,0 +1,50 @@
+User-agent: *
+Allow: /
+
+# Sitemap lokacija
+Sitemap: https://vazdusnijastuci.rs/sitemap.xml
+
+# Crawl-delay za bolje performanse servera
+Crawl-delay: 1
+
+# Disallow admin oblasti (ako budu u budućnosti)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# Allow važne stranice
+Allow: /proizvodi
+Allow: /auto-delovi
+Allow: /bmw-vazdusni-jastuci
+Allow: /mercedes-vazdusni-jastuci
+Allow: /audi-vazdusni-jastuci
+Allow: /land-rover-vazdusni-jastuci
+Allow: /porsche-vazdusni-jastuci
+Allow: /vazdusni-jastuci-za-dzipove
+Allow: /pneumatska-suspenzija
+Allow: /suspenzija-oslanjanje
+Allow: /kontakt
+
+# Specifični bot-ovi
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Blokiranje spam bot-ova
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
