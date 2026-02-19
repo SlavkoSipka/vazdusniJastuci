@@ -10,7 +10,7 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://aislike.rs/Jastuci/logo2.png</image:loc>
+      <image:loc>/images/logo2.png</image:loc>
       <image:title>Vazdušni Jastuci Logo</image:title>
       <image:caption>Vazdušni jastuci za džipove i SUV vozila</image:caption>
     </image:image>

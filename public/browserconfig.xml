@@ -2,10 +2,10 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square70x70logo src="https://aislike.rs/Jastuci/favicon-32x32.png"/>
-            <square150x150logo src="https://aislike.rs/Jastuci/android-chrome-512x512.png"/>
-            <square310x310logo src="https://aislike.rs/Jastuci/android-chrome-512x512.png"/>
-            <wide310x150logo src="https://aislike.rs/Jastuci/android-chrome-512x512.png"/>
+            <square70x70logo src="/images/favicon-32x32.png"/>
+            <square150x150logo src="/images/android-chrome-512x512.png"/>
+            <square310x310logo src="/images/android-chrome-512x512.png"/>
+            <wide310x150logo src="/images/android-chrome-512x512.png"/>
             <TileColor>#dc2626</TileColor>
         </tile>
     </msapplication>
