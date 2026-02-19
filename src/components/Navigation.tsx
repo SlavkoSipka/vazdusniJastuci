@@ -66,7 +66,7 @@ const Navigation: React.FC<NavigationProps> = ({
           {/* Logo */}
           <div className="flex-shrink-0">
             <img 
-              src="https://aislike.rs/Jastuci/logo2.png" 
+              src="/images/logo2.png" 
               alt="Vazdušni Jastuci Logo" 
               className="h-36 w-auto max-w-none"
             />

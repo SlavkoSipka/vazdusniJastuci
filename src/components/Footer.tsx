@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = ({ onCaseStudyClick }) => {
         <div className="text-center">
           <div className="flex justify-center">
             <img 
-              src="https://aislike.rs/Jastuci/logo2.png" 
+              src="/images/logo2.png" 
               alt="Vazdušni Jastuci Logo" 
               className="h-32 sm:h-40 md:h-48 w-auto"
             />

@@ -10,7 +10,7 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ message = "Učitavanje...
       <div className="text-center">
         <div className="animate-pulse mb-8">
           <img 
-            src="https://aislike.rs/Jastuci/logo.png" 
+            src="/images/logo.png" 
             alt="Vazdušni Jastuci Logo" 
             className="h-80 w-auto mx-auto"
           />

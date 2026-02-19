@@ -10,7 +10,7 @@ export const products: Product[] = [
     originalPrice: 22000,
     rating: 4.8,
     reviews: 15,
-    image: 'https://aislike.rs/Jastuci/AUDI A6 C7 C4 D4 4G 2.jpg',
+    image: '/images/AUDI A6 C7 C4 D4 4G 2.jpg',
     inStock: true,
     popular: true,
     category: 'Vazdušni jastuci za džipove'
@@ -24,7 +24,7 @@ export const products: Product[] = [
     originalPrice: 19500,
     rating: 4.9,
     reviews: 12,
-    image: 'https://aislike.rs/Jastuci/IMG_20241004_160352.jpg',
+    image: '/images/IMG_20241004_160352.jpg',
     inStock: true,
     popular: true,
     category: 'Vazdušni jastuci za džipove'
@@ -38,7 +38,7 @@ export const products: Product[] = [
     originalPrice: 15000,
     rating: 4.7,
     reviews: 18,
-    image: 'https://aislike.rs/Jastuci/BMW 5 X5 ZADNJI 3.jpg',
+    image: '/images/BMW 5 X5 ZADNJI 3.jpg',
     inStock: true,
     popular: false,
     category: 'Vazdušni jastuci za džipove'
@@ -52,7 +52,7 @@ export const products: Product[] = [
     originalPrice: 28800,
     rating: 4.9,
     reviews: 20,
-    image: 'https://aislike.rs/Jastuci/BMW X5 F15 X6 F16 2.jpg',
+    image: '/images/BMW X5 F15 X6 F16 2.jpg',
     inStock: true,
     popular: true,
     category: 'Vazdušni jastuci za džipove'
@@ -66,7 +66,7 @@ export const products: Product[] = [
     originalPrice: 23200,
     rating: 4.6,
     reviews: 8,
-    image: 'https://aislike.rs/Jastuci/LAND ROVER SPORT I VELAR PREDNJI I ZADNJI.jpg',
+    image: '/images/LAND ROVER SPORT I VELAR PREDNJI I ZADNJI.jpg',
     inStock: true,
     popular: false,
     category: 'Vazdušni jastuci za džipove'
@@ -80,7 +80,7 @@ export const products: Product[] = [
     originalPrice: 26000,
     rating: 4.8,
     reviews: 11,
-    image: 'https://aislike.rs/Jastuci/LAND ROVER SPORT.jpg',
+    image: '/images/LAND ROVER SPORT.jpg',
     inStock: true,
     popular: false,
     category: 'Vazdušni jastuci za džipove'
@@ -94,7 +94,7 @@ export const products: Product[] = [
     originalPrice: 24000,
     rating: 4.9,
     reviews: 16,
-    image: 'https://aislike.rs/Jastuci/MERCEDES ML350 ML500 PREDNJI I ZADNJI.jpg',
+    image: '/images/MERCEDES ML350 ML500 PREDNJI I ZADNJI.jpg',
     inStock: true,
     popular: true,
     category: 'Vazdušni jastuci za džipove'
@@ -108,7 +108,7 @@ export const products: Product[] = [
     originalPrice: 22500,
     rating: 4.7,
     reviews: 9,
-    image: 'https://aislike.rs/Jastuci/MERCEDES V KLASA VITO.jpg',
+    image: '/images/MERCEDES V KLASA VITO.jpg',
     inStock: true,
     popular: false,
     category: 'Vazdušni jastuci za džipove'
@@ -122,7 +122,7 @@ export const products: Product[] = [
     originalPrice: 20500,
     rating: 4.8,
     reviews: 14,
-    image: 'https://aislike.rs/Jastuci/MERCEDES VAZDUSNA OPRUGA W212.jpg',
+    image: '/images/MERCEDES VAZDUSNA OPRUGA W212.jpg',
     inStock: true,
     popular: false,
     category: 'Vazdušni jastuci za džipove'
@@ -136,7 +136,7 @@ export const products: Product[] = [
     originalPrice: 22800,
     rating: 4.7,
     reviews: 13,
-    image: 'https://aislike.rs/Jastuci/Mercedes W166 Levi i Desni 2.jpg',
+    image: '/images/Mercedes W166 Levi i Desni 2.jpg',
     inStock: true,
     popular: false,
     category: 'Vazdušni jastuci za džipove'
@@ -150,7 +150,7 @@ export const products: Product[] = [
     originalPrice: 25000,
     rating: 4.9,
     reviews: 17,
-    image: 'https://aislike.rs/Jastuci/Mercedes Kompresor ADS ZADNJI I PREDNJI W164 ML350 ML420 ML500 2.jpg',
+    image: '/images/Mercedes Kompresor ADS ZADNJI I PREDNJI W164 ML350 ML420 ML500 2.jpg',
     inStock: true,
     popular: false,
     category: 'Vazdušni jastuci za džipove'
@@ -164,7 +164,7 @@ export const products: Product[] = [
     originalPrice: 27000,
     rating: 4.8,
     reviews: 10,
-    image: 'https://aislike.rs/Jastuci/PORSCHE MACAN PREDNJI I ZADNJI.jpg',
+    image: '/images/PORSCHE MACAN PREDNJI I ZADNJI.jpg',
     inStock: true,
     popular: false,
     category: 'Vazdušni jastuci za džipove'
@@ -178,7 +178,7 @@ export const products: Product[] = [
     originalPrice: 26000,
     rating: 4.9,
     reviews: 19,
-    image: 'https://aislike.rs/Jastuci/Mercedes Kompresor W212 W220 W221 W222 W166 X166 W164 2.jpg',
+    image: '/images/Mercedes Kompresor W212 W220 W221 W222 W166 X166 W164 2.jpg',
     inStock: true,
     popular: false,
     category: 'Vazdušni jastuci za džipove'
@@ -192,7 +192,7 @@ export const products: Product[] = [
     originalPrice: 29000,
     rating: 4.8,
     reviews: 7,
-    image: 'https://aislike.rs/Jastuci/PORSCHE PANAMERA PREDNJI I ZADNJI.webp',
+    image: '/images/PORSCHE PANAMERA PREDNJI I ZADNJI.webp',
     inStock: true,
     popular: false,
     category: 'Vazdušni jastuci za džipove'
@@ -206,7 +206,7 @@ export const products: Product[] = [
     originalPrice: 23000,
     rating: 4.8,
     reviews: 12,
-    image: 'https://aislike.rs/Jastuci/MERCEDES VAZDUSNA OPRUGA W212.jpg',
+    image: '/images/MERCEDES VAZDUSNA OPRUGA W212.jpg',
     inStock: true,
     popular: true,
     category: 'Vazdušni jastuci za džipove'

@@ -102,7 +102,7 @@ function App() {
             : 'opacity-90 translate-y-4'
         }`}
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://aislike.rs/Jastuci/734241.jpg')`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('/images/734241.jpg')`
         }}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -328,13 +328,13 @@ function App() {
           <div 
             className="absolute left-0 top-0 w-96 h-full bg-contain bg-no-repeat bg-left opacity-100"
             style={{
-              backgroundImage: `url('https://aislike.rs/Jastuci/suspension.png')`
+              backgroundImage: `url('/images/suspension.png')`
             }}
           />
           <div 
             className="absolute right-0 top-0 w-96 h-full bg-contain bg-no-repeat bg-right opacity-100"
             style={{
-              backgroundImage: `url('https://aislike.rs/Jastuci/suspension.png')`
+              backgroundImage: `url('/images/suspension.png')`
             }}
           />
         </div>

@@ -204,13 +204,13 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onBack, initialBrand = 'SVE
           <div 
             className="absolute left-0 top-0 w-96 h-full bg-contain bg-no-repeat bg-left opacity-100"
             style={{
-              backgroundImage: `url('https://aislike.rs/Jastuci/suspension.png')`
+              backgroundImage: `url('/images/suspension.png')`
             }}
           />
           <div 
             className="absolute right-0 top-0 w-96 h-full bg-contain bg-no-repeat bg-right opacity-100"
             style={{
-              backgroundImage: `url('https://aislike.rs/Jastuci/suspension.png')`
+              backgroundImage: `url('/images/suspension.png')`
             }}
           />
         </div>
